@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    opacity: 0.9;
+}
+.img{
+
+
+    background: url(green.jpg) center/cover fixed;
+    height: 100vh;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+}
+.title{
+    color: beige;
+    text-transform: uppercase;
+    /* text-align: center; */
+  margin-top: 80px;
+  font-family: cursive;
+  text-shadow: 3px 2px 2px black;
+  padding: 200px 0 0 100px;
+  animation: flut ease 2.5s ;
+  /* animation-name: flut;
+  animation-duration: 3s; */
+  
+ 
+
+}
+@keyframes flut {
+  
+    
+    0%{
+        opacity: 0;
+        transform: translateY(180px);
+        color:green;
+      
+    
+    }
+    70%{
+        color: green;
+        
+    }
+
+    100%
+    {
+        
+        opacity: 1;
+    }
+    
+    
+
+    /* 50%{
+        color: rgb(15, 121, 20);
+        
+
+    }
+    */
+    
+}
+.first{
+    /* background-color: blanchedalmond; */
+    border-radius: 5%;
+}
+.second{
+/* 
+    background-color: rgb(231, 198, 216); */
+    border-radius: 5%;
+}
+#tit{
+
+    text-align: center;
+}
+.bttn{
+    position: relative;
+   float: right;
+}
+.see{
+    background-color: rgb(109, 170, 150);
+    border-radius: 15px;
+}
+.see img{
+    height: 300px;
+   
+    border-radius: 50%;
+    padding: 20px;
+
+
+   
+    
+   
+}
+.see img:hover{
+    transform: scale(1.05);
+}
+
+
+.t{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 3px 5px rgb(32, 90, 63);
+    
+}
+#right{
+    background-color: rgba(107, 70, 24, 0.568);
+}
+
+.image1{
+    height: 250px;
+    width: 200px;
+   
+}
